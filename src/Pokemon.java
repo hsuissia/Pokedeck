@@ -1,11 +1,11 @@
 
-public class Pokemon extends Carte {
-	private int pv;
+public class Pokemon extends Card {
+	private int hp;
 	private String type;
 	
-	public Pokemon(String nom, String description, String type, int pv){
-		super(nom, description);
-		this.pv = pv;
+	public Pokemon(String name, String description, String type, int hp){
+		super(name, description);
+		this.hp = hp;
 		this.type = type;
 	}
 }
